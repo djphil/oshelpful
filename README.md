@@ -2,22 +2,14 @@
 Useful information for OpenSim v0.1 by djphil (CC-BY-NC-SA 4.0)
 
 ## PROFILE WANT TO MASKS
-1   = Construire
-
-4   = Faire des renconstres
-
-8   = Rejoindre un groupe
-
-32  = Vendre
-
-2   = Explorer
-
-64  = Etre engagé
-
-16  = Acheter
-
-128 = Recruter
-
+1. Construire = 1
+2. Explorer = 2
+3. Faire des renconstres = 4
+4. Rejoindre un groupe = 8
+5. Acheter = 16
+6. Vendre = 32
+7. Etre engagé = 64
+8. Recruter = 128
 Total = 255
 
 ## PROFILE SKILLS MASKS
