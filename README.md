@@ -2,9 +2,9 @@
 Useful information for OpenSim v0.1 by djphil (CC-BY-NC-SA 4.0)
 
 ## PROFILE WANT TO MASKS
-1   = Construire
-4   = Faire des renconstres
-8   = Rejoindre un groupe
+1. Construire
+4. = Faire des renconstres
+8. Rejoindre un groupe
 32  = Vendre
 2   = Explorer
 64  = Etre engagé
