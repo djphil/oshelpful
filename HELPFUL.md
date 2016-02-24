@@ -16,11 +16,11 @@
 - 250 = GOD_MAINTENANCE (Difference from GOD_FULL not ap
 
 ##### USER ACCOUNTS FLAGS (usseraccounts -> UserFlags)
-200 = Resident:Payment info on account
-300 = Testing:Payment info on account
-400 = Testing:No payment info on account
-600 = Member Estatute:Payment info on account
-800 = Linden Contracted
+- 200 = Resident:Payment info on account
+- 300 = Testing:Payment info on account
+- 400 = Testing:No payment info on account
+- 600 = Member Estatute:Payment info on account
+- 800 = Linden Contracted
 
 ##### PROFILE WANT TO MASKS (profileWantToMask)
 - 1 = Build
