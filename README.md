@@ -1,27 +1,27 @@
 # oshelpful
 Useful information for OpenSim v0.1 by djphil (CC-BY-NC-SA 4.0)
 
-## PROFILE WANT TO MASKS (profileWantToMask)
-- Build = 1
-- Explore = 2
-- Meet people = 4
-- Join a group = 8
-- Buy = 16
-- Shell = 32
-- To be engaged = 64
-- Recruit = 128
+### PROFILE WANT TO MASKS (profileWantToMask)
+- 1 = Build
+- 2 = Explore
+- 4 = Meet people
+- 8 = Join a group
+- 16 = Buy
+- 32 = Shell
+- 64 = To be engaged
+- 128 Recruit
 Total = 255
 
-## PROFILE SKILLS MASKS (profileSkillsMask)
-- Textures = 1
-- Architecture = 2
-- Organize events = 4
-- Model = 8
-- Scripting = 16 
-- Customizing avatars = 32
+### PROFILE SKILLS MASKS (profileSkillsMask)
+- 1 = Textures
+- 2 = Architecture
+- 4 = Organize events
+- 8 = Model
+- 16 = Scripting 
+- 32 = Customizing avatars
 Total = 63
 
-CLASSIFIEDS CATEGORY (category)
+### CLASSIFIEDS CATEGORY (category)
 - 1 = Shopping
 - 2 = Land Rental
 - 3 = Property Rental
