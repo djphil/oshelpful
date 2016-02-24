@@ -11,36 +11,36 @@
  - Set To Linden Content
  - Claim Public Land
 - 150 = GOD_LIAISON: Enable land auction
-- 200 = GOD_FULL: allow user to get admin level (advanced -> request admin)
+- 200 = GOD_FULL: allow user to get admin level (advanced => request admin)
  - (Difference from GOD_LIAISON not apparent)
-- 250 = GOD_MAINTENANCE (Difference from GOD_FULL not ap
+- 250 = GOD_MAINTENANCE (Difference from GOD_FULL not apparent)
 
-##### USER ACCOUNTS FLAGS (usseraccounts -> UserFlags)
+##### USER ACCOUNTS FLAGS (usseraccounts => UserFlags)
 - 200 = Resident:Payment info on account
 - 300 = Testing:Payment info on account
 - 400 = Testing:No payment info on account
 - 600 = Member Estatute:Payment info on account
 - 800 = Linden Contracted
 
-##### PROFILE WANT TO MASKS (profileWantToMask)
-- 1 = Build
-- 2 = Explore
-- 4 = Meet people
-- 8 = Join a group
-- 16 = Buy
-- 32 = Shell
-- 64 = To be engaged
-- 128 Recruit
+##### PROFILE WANT TO MASKS (profileWantDoMask vs. profileWantToMask)
+- Bit 0:   1 = Build
+- Bit 1:   2 = Explore
+- Bit 2:   4 = Meet
+- Bit 3:   8 = Group
+- Bit 4:  16 = Buy
+- Bit 5:  32 = Sell
+- Bit 6:  64 = Be Hired
+- Bit 7: 128 = Hire
 
 Total = 255
 
-##### PROFILE SKILLS MASKS (profileSkillsMask)
-- 1 = Textures
-- 2 = Architecture
-- 4 = Organize events
-- 8 = Model
-- 16 = Scripting 
-- 32 = Customizing avatars
+##### PROFILE SKILLS MASKS (profileCanDoMask vs. profileSkillsMask)
+- Bit 0:  1 = Textures
+- Bit 1:  2 = Architecture
+- Bit 2:  4 = Event Planning 
+- Bit 3:  8 = Modeling
+- Bit 4: 16 = Scripting
+- Bit 5: 32 = Custom Characters
 
 Total = 63
 
@@ -54,6 +54,11 @@ Total = 63
 - 7 = Wanted
 - 8 = Service
 - 9 = Personal
+
+##### CLASSIFIEDS FLAGS (classifiedsflags)
+-  4 = PG content
+-  8 = Mature content
+- 32 = Publish each week
 
 ##### EVENTS CATEGORY (category)
 TO DO ...
