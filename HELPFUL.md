@@ -5,14 +5,14 @@
 -   0 = GOD_NOT: This is the level given to users by default
 -   1 = GOD_LIKE: Rename objects without modify permission
 - 100 = GOD_CUSTOMER_SERVICE
--- Toggle character geometry
--- Take copy
--- Owner To Me
--- Set To Linden Content
--- Claim Public Land
+ - Toggle character geometry
+ - Take copy
+ - Owner To Me
+ - Set To Linden Content
+ - Claim Public Land
 - 150 = GOD_LIAISON: Enable land auction
 - 200 = GOD_FULL: allow user to get admin level (advanced -> request admin)
--- (Difference from GOD_LIAISON not apparent)
+ - (Difference from GOD_LIAISON not apparent)
 - 250 = GOD_MAINTENANCE (Difference from GOD_FULL not ap
 
 ##### USER ACCOUNTS FLAGS (usseraccounts -> UserFlags)
