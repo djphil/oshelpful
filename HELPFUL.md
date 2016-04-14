@@ -62,4 +62,18 @@ Total = 63
 - 32 = Publish each week
 
 ##### EVENTS CATEGORY (category)
-TO DO ...
+
+- 18 = Discussion
+- 19 = Sports
+- 20 = Live Music
+- 22 = Commercial
+- 23 = Nightlife/Entertainment
+- 24 = Games/Contests
+- 25 = Pageants
+- 26 = Education
+- 27 = Arts and Culture
+- 28 = Charity/Support Groups
+- 29 = Miscellaneous
+
+
+More coming soon ...
