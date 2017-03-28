@@ -75,5 +75,38 @@ Total = 63
 - 28 = Charity/Support Groups
 - 29 = Miscellaneous
 
+##### REGION FLAGS (regions -> flags)
+-  0       = None
+-  1 << 0  = AllowDamage
+-  1 << 1  = AllowLandmark
+-  1 << 2  = AllowSetHome
+-  1 << 3  = ResetHomeOnTeleport
+-  1 << 4  = SunFixed
+-  1 << 5  = SunFixed
+-  1 << 6  = SunFixed
+-  1 << 7  = BlockLandResell
+-  1 << 8  = Sandbox
+-  1 << 9  = NullLayer
+-  1 << 10 = SkipAgentAction
+-  1 << 11 = SkipUpdateInterestList
+-  1 << 12 = SkipCollisions
+-  1 << 13 = SkipScripts
+-  1 << 14 = SkipPhysics
+-  1 << 15 = ExternallyVisible
+-  1 << 16 = MainlandVisible
+-  1 << 17 = PublicAllowed
+-  1 << 18 = BlockDwell
+-  1 << 19 = NoFly
+-  1 << 20 = AllowDirectTeleport
+-  1 << 21 = EstateSkipScripts
+-  1 << 22 = RestrictPushObject
+-  1 << 23 = DenyAnonymous
+-  1 << 24 = DenyIdentified
+-  1 << 25 = DenyTransacted
+-  1 << 26 = AllowParcelChanges
+-  1 << 27 = AbuseEmailToEstateOwner
+-  1 << 28 = AllowVoice
+-  1 << 29 = BlockParcelSearch
+-  1 << 30 = DenyAgeUnverified
 
 More coming soon ...
