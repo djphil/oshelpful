@@ -1,6 +1,4 @@
-
-#helpful
-Helpful for OpenSim v0.1 by djphil (CC-BY-NC-SA 4.0)
+Helpful v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 
 ##### USER ACCOUNTS LEVELS (usseraccounts -> UserLevel)
 -   0 = GOD_NOT: This is the level given to users by default
