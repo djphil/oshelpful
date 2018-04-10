@@ -15,10 +15,10 @@ Helpful v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 - 250 = GOD_MAINTENANCE (Difference from GOD_FULL not apparent)
 
 ##### USER ACCOUNTS FLAGS (usseraccounts => UserFlags)
-- 200 = Resident:Payment info on account
-- 300 = Testing:Payment info on account
-- 400 = Testing:No payment info on account
-- 600 = Member Estatute:Payment info on account
+- 200 = Resident: Payment info on account
+- 300 = Testing: Payment info on account
+- 400 = Testing: No payment info on account
+- 600 = Member Estatute: Payment info on account
 - 800 = Linden Contracted
 
 ##### PROFILE WANT TO MASKS (profileWantDoMask vs. profileWantToMask)
@@ -74,39 +74,47 @@ Total = 63
 - 29 = Miscellaneous
 
 ##### REGION FLAGS (regions -> flags)
-- 0 = None (0)
-- Bit  0:          1 = AllowDamage              (1 << 0)
-- Bit  1:          2 = AllowLandmark            (1 << 1)
-- Bit  2:          4 = AllowSetHome             (1 << 2)
-- Bit  3:          8 = ResetHomeOnTeleport      (1 << 3)
-- Bit  4:         16 = SunFixed                 (1 << 4)
-- Bit  5:         32 = SunFixed                 (1 << 5)
-- Bit  6:         64 = SunFixed                 (1 << 6)
-- Bit  7:        128 = BlockLandResell          (1 << 7)
-- Bit  8:        256 = Sandbox                  (1 << 8)
-- Bit  9:        512 = NullLayer                (1 << 9)
-- Bit 10:       1024 = SkipAgentAction          (1 << 10)
-- Bit 11:       2048 = SkipUpdateInterestList   (1 << 11)
-- Bit 12:       4096 = SkipCollisions           (1 << 12)
-- Bit 13:       8192 = SkipScripts              (1 << 13)
-- Bit 14:      16384 = SkipPhysics              (1 << 14)
-- Bit 15:      32768 = ExternallyVisible        (1 << 15)
-- Bit 16:      65536 = MainlandVisible          (1 << 16)
-- Bit 17:     131072 = PublicAllowed            (1 << 17)
-- Bit 18:     262144 = BlockDwell               (1 << 18)
-- Bit 19:     524288 = NoFly                    (1 << 19)
-- Bit 20:    1048576 = AllowDirectTeleport      (1 << 20)
-- Bit 21:    2097152 = EstateSkipScripts        (1 << 21)
-- Bit 22:    4194304 = RestrictPushObject       (1 << 22)
-- Bit 23:    8388608 = DenyAnonymous            (1 << 23)
-- Bit 24:   16777216 = DenyIdentified           (1 << 24)
-- Bit 25:   33554432 = DenyTransacted           (1 << 25)
-- Bit 26:   67108864 = AllowParcelChanges       (1 << 26)
-- Bit 27:  134217728 = AbuseEmailToEstateOwner  (1 << 27)
-- Bit 28:  268435456 = AllowVoice               (1 << 28)
-- Bit 29:  536870912 = BlockParcelSearch        (1 << 29)
-- Bit 30: 1073741824 = DenyAgeUnverified        (1 << 30)
+- 0 = None (0): No flags set
+- Bit  0:          1 = AllowDamage              (1 << 0): Agents can take damage and be killed
+- Bit  1:          2 = AllowLandmark            (1 << 1): Landmarks can be created here
+- Bit  2:          4 = AllowSetHome             (1 << 2): Home position can be set in this sim
+- Bit  3:          8 = ResetHomeOnTeleport      (1 << 3): Home position is reset when an agent teleports away
+- Bit  4:         16 = SunFixed                 (1 << 4): Sun does not move
+- Bit  5:         32 = TaxFree                  (1 << 5): No object, land, etc. taxes
+- Bit  6:         64 = BlockTerraform           (1 << 6): Disable heightmap alterations (agents can still plant foliage) 
+- Bit  7:        128 = BlockLandResell          (1 << 7): Land cannot be released, sold, or purchased
+- Bit  8:        256 = Sandbox                  (1 << 8): All content is wiped nightly
+- Bit  9:        512 = NullLayer                (1 << 9): 
+- Bit 10:       1024 = SkipAgentAction          (1 << 10): 
+- Bit 11:       2048 = SkipUpdateInterestList   (1 << 11): 
+- Bit 12:       4096 = SkipCollisions           (1 << 12): No collision detection for non-agent objects
+- Bit 13:       8192 = SkipScripts              (1 << 13): No scripts are ran
+- Bit 14:      16384 = SkipPhysics              (1 << 14): All physics processing is turned off
+- Bit 15:      32768 = ExternallyVisible        (1 << 15): 
+- Bit 16:      65536 = MainlandVisible          (1 << 16): 
+- Bit 17:     131072 = PublicAllowed            (1 << 17): 
+- Bit 18:     262144 = BlockDwell               (1 << 18): 
+- Bit 19:     524288 = NoFly                    (1 << 19): Flight is disabled (not currently enforced by the sim)
+- Bit 20:    1048576 = AllowDirectTeleport      (1 << 20): Allow direct (p2p) teleporting
+- Bit 21:    2097152 = EstateSkipScripts        (1 << 21): Estate owner has temporarily disabled scripting
+- Bit 22:    4194304 = RestrictPushObject       (1 << 22): 
+- Bit 23:    8388608 = DenyAnonymous            (1 << 23): Deny agents with no payment info on file
+- Bit 24:   16777216 = DenyIdentified           (1 << 24): Deny agents with payment info on file
+- Bit 25:   33554432 = DenyTransacted           (1 << 25): Deny agents who have made a monetary transaction
+- Bit 26:   67108864 = AllowParcelChanges       (1 << 26): 
+- Bit 27:  134217728 = AbuseEmailToEstateOwner  (1 << 27): 
+- Bit 28:  268435456 = AllowVoice               (1 << 28): Region is Voice Enabled
+- Bit 29:  536870912 = BlockParcelSearch        (1 << 29): 
+- Bit 30: 1073741824 = DenyAgeUnverified        (1 << 30): 
 
 Total = 2147483647
+
+##### REGION ACCESS (regions -> access)
+- 0 = Min: Minimum access level, no additional checks
+- 7 = Trial: Trial accounts allowed
+- 13 = PG: PG rating
+- 21 = Mature: Mature rating
+- 254 = Down: Simulator is offline
+- 255 = NonExistent: Simulator does not exist
 
 More coming soon ...
