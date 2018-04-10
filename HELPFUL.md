@@ -168,4 +168,15 @@ Total = 2147483647
 
 Total = ...
 
+##### DEFAULT EVERYONE GROUP POWERS
+- Bit 16:             65536 = JoinChat              (1 << 16): Can join group chat sessions
+- Bit 27:         134217728 = AllowVoiceChat        (1 << 27): Can use voice chat in Group Chat sessions
+- Bit 28:         268435456 = AllowSetHome          (1 << 28): Can set home location on any group owned parcel
+- Bit 40:     1099511627776 = Accountable           (1 << 40): Pay group liabilities and receive group dividends
+- Bit 43:     8796093022208 = ReceiveNotices        (1 << 43): Can receive group notices
+- Bit 44:    17592186044416 = StartProposal         (1 << 44): Can create group proposals
+- Bit 45:    35184372088832 = VoteOnProposal        (1 << 45): Can vote on group proposals
+
+Total = 62672565501952
+
 More coming soon ...
