@@ -109,6 +109,42 @@ Total = 63
 
 Total = 2147483647
 
+##### LAND FLAGS (land -> LandFlags)
+- Hex        0:          0 = None (0): No flags set
+- Hex        1:          1 = AllowFly: Allow avatars to fly (a client-side only restriction)
+- Hex        2: 	     2 = AllowOtherScripts: Allow foreign scripts to run
+- Hex        4:          4 = ForSale: This parcel is for sale
+- Hex        8:          8 = AllowLandmark: Allow avatars to create a landmark on this parcel
+- Hex       10:         16 = AllowTerraform: Allows all avatars to edit the terrain on this parcel
+- Hex       20:         32 = AllowDamage: Avatars have health and can take damage on this parcel. If set, avatars can be killed and sent home here
+- Hex       40:         64 = CreateObjects: Foreign avatars can create objects here
+- Hex       80:        128 = ForSaleObjects: All objects on this parcel can be purchased
+- Hex      100:        256 = UseAccessGroup: Access is restricted to a group
+- Hex      200:        512 = UseAccessList: Access is restricted to a whitelist
+- Hex      400:       1024 = UseBanList: Ban blacklist is enabled
+- Hex      800:       2048 = UsePassList: Unknown
+- Hex     1000:       4096 = ShowDirectory: List this parcel in the search directory
+- Hex     2000:       8192 = AllowDeedToGroup: Allow personally owned parcels to be deeded to group
+- Hex     4000:      16384 = ContributeWithDeed: If Deeded, owner contributes required tier to group parcel is deeded to
+- Hex     8000:      32768 = SoundLocal: Restrict sounds originating on this parcel to the parcel boundaries
+- Hex    10000:      65536 = SellParcelObjects: Objects on this parcel are sold when the land is purchsaed
+- Hex    20000:     131072 = AllowPublish: Allow this parcel to be published on the web
+- Hex    40000:     262144 = MaturePublish: The information for this parcel is mature content
+- Hex    80000:     524288 = UrlWebPage: The media URL is an HTML page
+- Hex   100000:    1048576 = UrlRawHtml: The media URL is a raw HTML string
+- Hex   200000:    2097152 = RestrictPushObject: xxx
+- Hex   400000:    4194304 = DenyAnonymous: xxx
+- Hex   800000:    8388608 = LindenHome: xxx
+- Hex  2000000:   33554432 = AllowGroupScripts: xxx
+- Hex  4000000:   67108864 = CreateGroupObjects: xxx
+- Hex  8000000:  134217728 = AllowAPrimitiveEntry: xxx
+- Hex 10000000:  268435456 = AllowGroupObjectEntry: xxx
+- Hex 20000000:  536870912 = AllowVoiceChat: xxx
+- Hex 40000000: 1073741824 = UseEstateVoiceChan: xxx
+- Hex 80000000: 2147483648 = DenyAgeUnverified: xxx
+
+Total = 4278190079 
+
 ##### REGION ACCESS (regions -> access)
 - 0 = Min: Minimum access level, no additional checks
 - 7 = Trial: Trial accounts allowed
@@ -166,7 +202,7 @@ Total = 2147483647
 - Bit 45:    35184372088832 = VoteOnProposal        (1 << 45): Can vote on group proposals
 - Bit 48:   281474976710656 = ReturnGroupOwned      (1 << 48): Can return group owned objects
 
-Total = ...
+Total = 351843720888319
 
 ##### DEFAULT EVERYONE GROUP POWERS
 - Bit 16:             65536 = JoinChat              (1 << 16): Can join group chat sessions
