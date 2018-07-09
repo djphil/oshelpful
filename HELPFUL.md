@@ -1,6 +1,6 @@
 Helpful v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 
-##### USER ACCOUNTS LEVELS (usseraccounts -> UserLevel)
+##### USER ACCOUNTS LEVELS (useraccounts -> UserLevel)
 -   0 = GOD_NOT: This is the level given to users by default
 -   1 = GOD_LIKE: Rename objects without modify permission
 - 100 = GOD_CUSTOMER_SERVICE
@@ -14,7 +14,7 @@ Helpful v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
  - (Difference from GOD_LIAISON not apparent)
 - 250 = GOD_MAINTENANCE (Difference from GOD_FULL not apparent)
 
-##### USER ACCOUNTS FLAGS (usseraccounts => UserFlags)
+##### USER ACCOUNTS FLAGS (useraccounts => UserFlags)
 - 200 = Resident: Payment info on account
 - 300 = Testing: Payment info on account
 - 400 = Testing: No payment info on account
