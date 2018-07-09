@@ -21,6 +21,20 @@ Helpful v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 - 600 = Member Estatute: Payment info on account
 - 800 = Linden Contracted
 
+##### USER ACCOUNTS TYPES:
+0 = Normal user (Resident)
+1 = Trial Member
+2 = Charter Member
+3 = Linden Labs Employee
+
+##### USER ACCOUNTS BIT FLAGS:
+-  1 (0x01): Allow external services like Google to index the user profile
+-  2 (0x02): The content of the profile is "mature" and should not appear on web pages children can access
+-  4 (0x04): The avatar has provided payment info and is therefore identified
+-  8 (0x08): The avatar has made at least one successful payment using their payment info
+- 16 (0x10): The avatar is online (This flag has no effect in the database, it is dynamically managed)
+- 32 (0x20): The avatar has been age verified using some external service (like LL's Aristotle)
+
 ##### PROFILE WANT TO MASKS (profileWantDoMask vs. profileWantToMask)
 - Bit 0:   1 = Build
 - Bit 1:   2 = Explore
