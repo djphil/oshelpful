@@ -22,10 +22,10 @@ Helpful v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 - 800 = Linden Contracted
 
 ##### USER ACCOUNTS TYPES:
-0 = Normal user (Resident)
-1 = Trial Member
-2 = Charter Member
-3 = Linden Labs Employee
+- 0 = Normal user (Resident)
+- 1 = Trial Member
+- 2 = Charter Member
+- 3 = Linden Labs Employee
 
 ##### USER ACCOUNTS BIT FLAGS:
 -  1 (0x01): Allow external services like Google to index the user profile
