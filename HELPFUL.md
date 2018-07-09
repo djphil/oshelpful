@@ -18,7 +18,7 @@ Helpful v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 - 200 = Resident: Payment info on account
 - 300 = Testing: Payment info on account
 - 400 = Testing: No payment info on account
-- 600 = Member Estatute: Payment info on account
+- 600 = Member Estate: Payment info on account
 - 800 = Linden Contracted
 
 ##### USER ACCOUNTS TYPES:
