@@ -1,7 +1,5 @@
 Enums v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 
-<small>Enums.md is take from libopenmetaverse Enums.cs</small>
-
 ##### AssetType - The different types of grid assets
 - Unknown 			= -1  : Unknown asset type
 - Texture 			=  0  : Texture asset, stores in JPEG2000 J2C stream format
@@ -107,5 +105,7 @@ Enums v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 - Physics   	  : Physics
 - Universal 	  : Universal
 - Invalid	= 255 : Invalid wearable asset
+
+Sources : Enums.md is take from libopenmetaverse Enums.cs
 
 More coming soon ...
