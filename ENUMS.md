@@ -1,6 +1,6 @@
 Enums v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 
-##### AssetType - The different types of grid assets
+##### ASSETTYPE - The different types of grid assets:
 - Unknown 			= -1  : Unknown asset type
 - Texture 			=  0  : Texture asset, stores in JPEG2000 J2C stream format
 - Sound 			=  1  : Sound asset
@@ -27,7 +27,7 @@ Enums v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 - Mesh 				=  49 : Linden mesh format
 - Settings 			=  56 : ...
 
-##### FolderType - The different types of folder
+##### FOLDERTYPE - The different types of folder:
 - None 					= -1   : None folder type
 - Texture				=  0   : Texture folder type
 - Sound 				=  1   : Sound folder type
@@ -59,7 +59,7 @@ Enums v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 - Settings				=  56  : Settings folder
 - Suitcase				=  100 : Hypergrid Suitcase folder
 
-##### InventoryType - Inventory Item Types, eg Script, Notecard, Folder, etc
+##### INVENTORYTYPE - Inventory Item Types, eg Script, Notecard, Folder, etc:
 - Unknown 		= -1  : Unknown
 - Texture 		=  0  : Texture
 - Sound 		=  1  : Sound
@@ -86,7 +86,7 @@ Enums v0.1 for OpenSim by djphil (CC-BY-NC-SA 4.0)
 - Mesh 			=  22 : ...
 - Settings 		=  25 : ...
 
-##### WearableType - Types of wearable assets
+##### WEARABLETYPE - Types of wearable assets:
 - Shape		= 0   : Body shape
 - Skin 			  : Skin textures and attributes
 - Hair 			  : Hair
