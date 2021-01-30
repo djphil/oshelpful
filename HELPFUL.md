@@ -69,12 +69,20 @@ Total = 63
 - 9 = Personal
 
 ##### CLASSIFIEDS FLAGS (classifiedsflags)
--  4 = PG content
--  8 = Mature content
-- 32 = Publish each week
+- Bit 0:  1 (1 << 0) = False PG (viewer bug missing parameter) Unused Deprecated Legacy
+- Bit 1:  2 (1 << 1) = Unused Deprecated Legacy
+- Bit 2:  4 (1 << 2) = PG content
+- Bit 3:  8 (1 << 3) = Mature content
+- Bit 4: 16 (1 << 4) = Unused Deprecated Legacy
+- Bit 5: 32 (1 << 5) = Publish each week (renewal, only used in combination)
+- Bit 6: 64 (1 << 6) = Adult content
+
+###### Classifieds Flags Combinations
+- Bit 2 + Bit 5: 36 (1 << 7)  = PG content, automatic renewal
+- Bit 3 + Bit 5: 40 (1 << 8)  = Mature content, automatic renewal
+- Bit 5 + Bit 6: 96 (1 << 11) = Adult, automatic renewal
 
 ##### EVENTS CATEGORY (category)
-
 - 18 = Discussion
 - 19 = Sports
 - 20 = Live Music
